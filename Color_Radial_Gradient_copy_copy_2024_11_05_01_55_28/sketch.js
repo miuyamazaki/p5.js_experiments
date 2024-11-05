@@ -7,13 +7,13 @@
 let dim;
 
 function setup() {
-  createCanvas(710, 400);
-  dim = width / 2;
+  createCanvas(720, 400);
+  dim = width / 5;
   background(0);
   colorMode(HSB, 360, 100, 100);
   noStroke();
   ellipseMode(RADIUS);
-  frameRate(1);
+  frameRate(10);
 }
 
 function draw() {
